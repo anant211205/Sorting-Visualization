@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(43, 39, 39);
+    /* color: #8377e0; */
+}
+
+.sorting-visualizer {
+    text-align: center;
+    height: 300px; 
+    padding: 20px;
+  }
+  
+.bars-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+  
+.bars {
+    display: inline-block;
+    width: 40px;
+    background-color: #3498db;
+    margin: 0 6px;
+    text-align: center;
+    color: #fff; /* Text color */
+    font-size: 15px;
+    line-height: 16px; /* Adjust the line height to vertically center the text */
+  }
+  
