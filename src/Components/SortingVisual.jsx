@@ -27,7 +27,7 @@ const SortingVisual = () => {
     
             //bars are compared 
     
-            const color = isSwap ? '#63bc7e' : '#8377e0' ;
+            const color = isSwap ? '#6356c3' : '#459e52' ;
             setTimeout(() => {
                 bar[index1].style.backgroundColor = color ;
                 bar[index2].style.backgroundColor = color ;
@@ -57,6 +57,7 @@ const SortingVisual = () => {
   return (
     <>
         <div className="sorting-visualizer">
+            <span style={{color:"white" , fontSize:"40px"}}>SORTING VISUALIZER</span>
             <div className="bars-container">
             {
                 array.map((value , index) => (
